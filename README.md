@@ -9,6 +9,6 @@ Práctica calificada con 3 ejercicios de Programación Orientada a Objetos
 en Python y flujo Gitflow completo con ramas feature, hotfix y merges --no-ff.
 
 ## Archivos
-- **planeta.py** — Clase `Planeta` con atributos (nombre, masa, radio, distancia al sol, tiene vida), cálculo de densidad y clasificación interior/exterior (umbral 5.2 UA).
-- **automovil.py** — Clase `Automóvil` con atributos privados y propiedades `@property` validadas (año 1886-2026, combustible 0-100, velocidad > 0). Incluye `tiempo_llegada()`.
-- **cuentas.py** — Jerarquía `CuentaBancaria` → `CuentaAhorros` y `CuentaCorriente` con herencia, polimorfismo y validaciones. Incluye hotfix de validación del monto.
+- **planeta.py** — Clase Planeta con atributos, cálculo de densidad y clasificación interior/exterior (umbral 5.2 UA).
+- **automovil.py** — Clase Automóvil con propiedades @property validadas. Incluye tiempo_llegada().
+- **cuentas.py** — Jerarquía CuentaBancaria → CuentaAhorros y CuentaCorriente con herencia y validaciones. Incluye hotfix.
